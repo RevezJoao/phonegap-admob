@@ -2,11 +2,11 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-admob" version="5.1.0">
   <description>Google AdMob Ads plugin for Cordova, Phonegap, Ionic/Angular, Ionic Native and Intel XDK. Monetize your app with one javascript line. Android Google Play Services SDK, iOS SDK v7.13.1. With support for tappx and auto-detect internet connection.</description>
   <name>AdMob Google Ads + Tappx</name>
-  <author email="info@appfeel.com" href="https://github.com/appfeel/admob-google-cordova">AppFeel</author>
+  <author href="https://github.com/RevezJoao/phonegap-admob">RevezJoao</author>
   <license>MIT</license>
-  <keywords>ad,ads,admob,google,advertising,advertisment,publicity,earn,win,play,services,iad,flurry,monetization,money,appfeel,tappx</keywords>
-  <repo>https://github.com/appfeel/admob-google-cordova.git</repo>
-  <issue>https://github.com/appfeel/admob-google-cordova/issues</issue>
+  <keywords>ad,ads,admob,google,advertising,advertisment,publicity,earn,win,play,services,iad,flurry,monetization,money,revezjoao,tappx</keywords>
+  <repo>https://github.com/RevezJoao/phonegap-admob.git</repo>
+  <issue>https://github.com/RevezJoao/phonegap-admob/issues</issue>
 
   <engines>
     <engine name="cordova" version=">=4.0.0" />
@@ -27,7 +27,7 @@
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="AdMobAds">
-        <param name="android-package" value="com.appfeel.cordova.admob.AdMobAds" />
+        <param name="android-package" value="com.revezjoao.cordova.admob.AdMobAds" />
       </feature>
     </config-file>
 
@@ -45,9 +45,9 @@
     </config-file>
 	  <framework src="com.google.android.gms:play-services-ads:15.0.0" />
 
-    <source-file src="src/android/AdMobAds.java" target-dir="src/com/appfeel/cordova/admob" />
-    <source-file src="src/android/AdMobAdsAdListener.java" target-dir="src/com/appfeel/cordova/admob" />
-    <source-file src="src/android/AdMobAdsRewardedAdListener.java" target-dir="src/com/appfeel/cordova/admob" />
+    <source-file src="src/android/AdMobAds.java" target-dir="src/com/revezjoao/cordova/admob" />
+    <source-file src="src/android/AdMobAdsAdListener.java" target-dir="src/com/revezjoao/cordova/admob" />
+    <source-file src="src/android/AdMobAdsRewardedAdListener.java" target-dir="src/com/revezjoao/cordova/admob" />
     <source-file src="src/android/res/xml/admob.xml" target-dir="res/xml" />
   </platform>
 </plugin>
